@@ -1,0 +1,149 @@
+body{
+    height: 2000px;
+    padding-top: 65px;
+    padding-left: 90px;
+}
+.tumbnail_1{
+    border-radius: 10px;
+    width:100%;
+    
+}
+.title{
+    font-family:"Inria Sans",sans-serif;
+    font-weight: bold;
+    margin-top:4px;
+    margin-bottom: 10px;
+}
+.author,
+.stats{
+    font-family:"Inria Sans",sans-serif;
+    margin-top: 4px;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.div_1{
+    vertical-align: top;
+}
+ .ch_pic{
+    margin-top: 4px;
+    vertical-align: top;
+    display: inline-block;
+    width:30px;
+    
+ }
+ .video_info{
+    display: inline-block;
+    width: 1fr;
+    
+}
+.ch_img{
+    width:30px;
+    border-radius:12px;
+}
+.header{
+    background-color:white;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color:gray;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+.left{
+    display:flex;
+    width: 150px;
+    justify-content: center;
+}
+.middle{
+   
+    flex:1;
+    display:flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-right: 25px;
+    max-width: 600px;
+    justify-content: center;
+}
+.right{
+    margin-left: 50px;
+    display:flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-right: 20px;
+
+}
+.search_bar{
+    flex:1;
+    display: grid;
+    grid-template-columns: 1fr 50px;
+}
+.search{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    box-shadow:inset 1px 2px 3px rgba(0,0,0, 0.05);
+
+}
+.search::placeholder{
+    font-family:"Inria Sans",sans-serif;
+}
+.search_icon{
+    height:35px;
+   width: 40px;
+   margin-left: -1px;
+
+}
+.options{
+
+    height:25px;
+    width: 25px;
+}
+
+.menu{
+    width: 26px;
+    
+}
+
+.yt_icon{
+    margin-left: 10px;
+    width: 100px;
+   
+}
+
+.voice{
+    height: 30px;
+    margin-left: 10px;
+    border-radius:15px;
+    background-color: rgb(240,240,240);
+    margin-top: 2px;
+}
+
+.l_body{
+    display:grid;
+    grid-template-columns: 1fr;
+
+}
+.sidebar{
+    position: fixed;
+    top:55px;
+    left:0;
+    bottom:0;
+    width: 80px;
+    background-color: white;
+
+    border-right-color: gray;;
+    border-right-style: solid;
+    border-right-width:2px;
+    
+}
+.my_channel{
+    width: 28px;
+    margin-right: 10px;
+}
